@@ -1,7 +1,7 @@
 # Maze-Grnerator
 
 This is Maze Generator. It randomly generates maze from 2D grid with DFS.
-I also added a Maze Solver functionality where it is automatically solved using A* Search Algorithm.
+I also added a Maze Solver functionality where it is automatically solveing the maze using A* Search Algorithm.
 And you can play it manually as well by moving the block in the maze with arrows(->) in your keyboard.
 
 
