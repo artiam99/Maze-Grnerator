@@ -5,6 +5,8 @@ I also added a Maze Solver functionality where it is automatically solved using 
 And you can play it manually as well by moving the block in the maze with arrows(->) in your keyboard.
 
 
+Live Link: https://maze-generator-maitra.herokuapp.com/
+
 
 ![Screenshot (75)](https://user-images.githubusercontent.com/47227715/127391539-a114e848-2519-4a8d-a547-b2c064e2ed62.png)
 
