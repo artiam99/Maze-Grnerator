@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <link rel="stylesheet" href="style.css" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Maze Generator</title>
+  </head>
+  <body>
+
+    <h1 class="title">MAZE GENERATOR</h1>
+
+    <div class="footer">
+      Built by Debarshi Maitra
+      <br />
+      Email - tuhin.dm1999@gmail.com
+      <br />
+      <a href="https://www.linkedin.com/in/debarshi-maitra-994932213/" target="blank" style="color: black;font-size: 15px;">LinkedIn</a>
+      <br />
+      <a href="https://github.com/artiam99" target="blank" style="color: black;font-size: 15px;">GitHub</a>
+    </div>
+
+
+    <div class="complete1">
+      <h3>Maze Completed.</h3>
+
+      <br />
+    
+      <button class="replay" id="submit">Play again</button>
+    
+      <button class="close" id="submit">Close</button>
+    </div>
+
+    <div class="complete3">
+      <h3>Maze Completed.</h3>
+
+      <br />
+    
+      <button class="back1" id="submit">Play again</button>
+    </div>
+    
+    <div class="complete4">
+
+      <br /><br /><br />
+      <h3>Use Keyboard Arrows for moving in the block.</h3>
+
+    </div>
+
+    <div class="complete2">
+      <h3>Generation Completed.</h3>
+
+      <br />
+    
+      <button class="play" id="submit">Play</button>
+
+      <button class="solve" id="submit">Solve</button>
+    
+      <button class="back" id="submit">Back</button>
+    </div>
+    
+      <form id="settings" action="">
+        <h2>Rows / Columns</h2>
+
+        <br />
+    
+        <input id="number" type="number" value="20" /></br>
+    
+        <input id="submit" type="submit" value="Generate Maze">
+      </form>
+  
+    <canvas class="maze"></canvas>
+
+    
+    <script src="maze.js"></script>
+
+    <script src="settings.js"></script>
+  </body>
+</html>
